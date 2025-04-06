@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playlist Lagu Raihan</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #570554, #c9011c, #f55e00);
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        .playlist-container {
+            width: 100%;
+            max-width: 600px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            width: 100%;
+        }
+
+        li {
+            display: flex;
+            align-items: center;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+
+        li:hover {
+            background: rgba(255, 255, 255, 0.3);
+        }
+
+        .profile-img {
+            width: 50px;
+            height: 50px;
+            margin-right: 15px;
+            border-radius: 5px;
+            object-fit: cover;
+        }
+
+        .song-info {
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+        }
+
+        .song-name {
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+
+        .artist-name {
+            font-size: 0.9rem;
+            color: #ddd;
+        }
+
+        audio {
+            width: 100%;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="playlist-container">
+        <h2>Playlist Lagu Indonesia</h2>
+        <ul id="playlist-indonesia">
+            <!-- Daftar lagu 1-40 -->
+            <li>
+                <img src="bunga maaf.jfif" alt="Profile" class="profile-img">
+                <div class="song-info">
+                    <div class="song-name">Bunga Maaf</div>
+                    <div class="artist-name">by The Lantis</div>
+                    <audio controls>
+                        <source src="The Lantis - Bunga Maaf (Visualizer).mp3" type="audio/mp3">
+                    </audio>
+                </div>
+            </li>
+            <li>
+                <img src="satu bulan.jfif" alt="Profile" class="profile-img">
+                <div class="song-info">
+                    <div class="song-name">Satu Bulan</div>
+                    <div class="artist-name">by Bernadya</div>
+                    <audio controls>
+                        <source src="Bernadya - Satu Bulan (Official Music Video).mp3" type="audio/mp3">
+                    </audio>
+                </div>
+            </li>
+            <li>
+                <img src="maxresdefault.jpg" alt="Profile" class="profile-img">
+                <div class="song-info">
+                    <div class="song-name">Nina</div>
+                    <div class="artist-name">by Artist feast</div>
+                    <audio controls>
+                        <source src="Nina - .Feast  Lirik Lagu.mp3" type="audio/mp3">
+                    </audio>
+                </div>
+            </li>
+            <li>
+                <img src="Tampar.jfif" alt="Profile" class="profile-img">
+                <div class="song-info">
+                    <div class="song-name">Tampar</div>
+                    <div class="artist-name">by Juicy Luicy</div>
+                    <audio controls>
+                        <source src="Juicy Luicy - Tampar (Official Lyric Video).mp3" type="audio/mp3">
+                    </audio>
+                </div>
+            </li>
+            <li>
+                <img src="lantas.jfif" alt="Profile" class="profile-img">
+                <div class="song-info">
+                    <div class="song-name">Lantas</div>
+                    <div class="artist-name">by Juicy Luicy</div>
+                    <audio controls>
+                        <source src="Juicy Luicy - Lantas (Official Lyric Video).mp3" type="audio/mp3">
+                    </audio>
+                </div>
+            </li>
+            <li>
+                <img src="lampu kuning.jfif" alt="Profile" class="profile-img">
+                <div class="song-info">
+                    <div class="song-name">Lampu Kuning</div>
+                    <div class="artist-name">by Juicy Luicy</div>
+                    <audio controls>
+                        <source src="Juicy Luicy - Lampu Kuning (Official Lyric Video).mp3" type="audio/mp3">
+                    </audio>
+                </div>
+            </li>
+            <li>
+                <img src="rumah ke rumah.jfif" alt="Profile" class="profile-img">
+                <div class="song-info">
+                    <div class="song-name">Rumah ke Rumah</div>
+                    <div class="artist-name">by Hindia</div>
+                    <audio controls>
+                        <source src="Hindia - Rumah Ke Rumah (Official Lyric & Commentary Video).mp3" type="audio/mp3">
+                    </audio>
+                </div>
+            </li>
+            <li>
+                <img src="anugerah terindah.jfif" alt="Profile" class="profile-img">
+                <div class="song-info">
+                    <div class="song-name">Anugerah Terindah</div>
+                    <div class="artist-name">by Andmesh</div>
+                    <audio controls>
+                        <source src="ANDMESH - ANUGERAH TERINDAH (VIDEO LIRIK) LIRIK LAGU TERBARU.mp3" type="audio/mp3">
+                    </audio>
+                </div>
+            </li>
+            <li>
+                <img src="bertaut.jfif" alt="Profile" class="profile-img">
+                <div class="song-info">
+                    <div class="song-name">Bertaut</div>
+                    <div class="artist-name">by Nadin Amizah</div>
+                    <audio controls>
+                        <source src="Nadin Amizah - Bertaut (Lirik).mp3" type="audio/mp3">
+                    </audio>
+                </div>
+            </li>
+            <li>
+                <img src="sempurna.jfif" alt="Profile" class="profile-img">
+                <div class="song-info">
+                    <div class="song-name">Sempurna</div>
+                    <div class="artist-name">by Andra & The Backbone</div>
+                    <audio controls>
+                        <source src="Andra and The Backbone - Sempurna (lyrics).mp3" type="audio/mp3">
+                    </audio>
+                </div>
+            </li>
+            <li>
+                <img src="nanti kita seperti ini.jfif" alt="Profile" class="profile-img">
+                <div class="song-info">
+                    <div class="song-name">Nanti Kita seperti ini</div>
+                    <div class="artist-name">by batas senja</div>
+                    <audio controls>
+                        <source src="nanti kita seperti ini.mp3" type="audio/mp3">
+                    </audio>
+                </div>
+            </li>
+            <li>
+                <img src="runtuh.jfif" alt="Profile" class="profile-img">
+                <div class="song-info">
+                    <div class="song-name">Runtuh</div>
+                    <div class="artist-name">by Feby putri,Fiersa Besari</div>
+                    <audio controls>
+                        <source src="Runtuh - Feby Putri feat. Fiersa Besari (Official Visualizer).mp3" type="audio/mp3">
+                    </audio>
+                </div>
+            </li>
+            <!-- ...Tambahkan lagu hingga total 40 lagu... -->
+            <li>
+                <img src="kata mereka ini berlebihan (1).jfif" alt="Profile" class="profile-img">
+                <div class="song-info">
+                    <div class="song-name">Kata Mereka Ini berlebihan</div>
+                    <div class="artist-name">by Bernadya</div>
+                    <audio controls>
+                        <source src="Bernadya - Kata Mereka Ini Berlebihan (Official Video) (1).mp3" type="audio/mp3">
+                    </audio>
+                </div>
+            </li>
+            <li>
+                <img src="payung teduh.jfif" alt="Profile" class="profile-img">
+                <div class="song-info">
+                    <div class="song-name">Payung Teduh - Akad</div>
+                    <div class="artist-name">by  Moh. Istiqamah Djamad</div>
+                    <audio controls>
+                        <source src="saveinsta.cc_320kbps-payung-teduh-akad-official-music-video.mp3" type="audio/mp3">
+                    </audio>
+                </div>
+            </li>
+            <li>
+                <img src="ayo sayang culik (1).jfif" alt="Profile" class="profile-img">
+                <div class="song-info">
+                    <div class="song-name">ayo sayang culik aku dong</div>
+                    <div class="artist-name">by Nisa Fauzia</div>
+                    <audio controls>
+                        <source src="DJ AYO SAYANG CULIK AKU DONG VIRAL TIKTOK FULL SONG MAMAN FVNDY 2024 (1).mp3" type="audio/mp3">
+                    </audio>
+                </div>
+            </li>
+            <li>
+                <img src="shinu no ga.jfif" alt="Profile" class="profile-img">
+                <div class="song-info">
+                    <div class="song-name">Shinunoga E-Wa</div>
+                    <div class="artist-name">by Fujii Kaze</div>
+                    <audio controls>
+                        <source src="Fujii Kaze - Shinunoga E-Wa (Not a MV).mp3" type="audio/mp3">
+                    </audio>
+                </div>
+            </li>
+            <li>
+                <img src="artworks-000416213016-pchm9m-t500x500.jpg" alt="Profile" class="profile-img">
+                <div class="song-info">
+                    <div class="song-name">Himawari No Yakuzoku</div>
+                    <div class="artist-name">by Motohiro Hata</div>
+                    <audio controls>
+                        <source src="Motohiro Hata - Himawari no Yakusoku [Doraemon AMV] (Indonesian sub  romaji lyrics).mp3" type="audio/mp3">
+                    </audio>
+                </div>
+            </li>
+            <li>
+                <img src="artworks-gDn1LvDGkA7cQEpA-xzxStQ-t1080x1080.jpg" alt="Profile" class="profile-img">
+                <div class="song-info">
+                    <div class="song-name">MONO NO AWARE "かむかもしかもにどもかも！"</div>
+                    <div class="artist-name">by 企画</div>
+                    <audio controls>
+                        <source src="saveinsta.cc_320kbps-haku-coverqi-hua-mono-no-aware-kamukamoshikamonidomokamo.mp3" type="audio/mp3">
+                    </audio>
+                </div>
+            </li>
+            <li>
+                <img src="perfect.jfif" alt="Profile" class="profile-img">
+                <div class="song-info">
+                    <div class="song-name">Perfect</div>
+                    <div class="artist-name">by Ed Sheeran</div>
+                    <audio controls>
+                        <source src="Ed Sheeran - Perfect.mp3" type="audio/mp3">
+                    </audio>
+                </div>
+            </li>
+            <li>
+                <img src="december.jfif" alt="Profile" class="profile-img">
+                <div class="song-info">
+                    <div class="song-name">December</div>
+                    <div class="artist-name">by Neck Deep</div>
+                    <audio controls>
+                        <source src="Neck Deep - December.mp3" type="audio/mp3">
+                    </audio>
+                </div>
+            <li> 
+                <img src="eliot james.jfif" alt="Profile" class="profile-img">
+                <div class="song-info">
+                    <div class="song-name">I Think They Call This Love</div>
+                    <div class="artist-name">by Elliot James Reay</div>
+                    <audio controls>
+                        <source src="saveinsta.cc_320kbps-elliot-james-reay-i-think-they-call-this-love-official-lyric-video.mp3" type="audio/mp3">
+                    </audio>
+                </div>
+            <li>
+                
+                    <img src="blue.jfif" alt="Profile" class="profile-img">
+                    <div class="song-info">
+                        <div class="song-name">Blue</div>
+                        <div class="artist-name">by Yungkai</div>
+                        <audio controls>
+                            <source src="WhatsApp Audio 2025-01-21 at 13.52.09.mpeg" type="audio/mp3">
+                        </audio>
+                    </div>
+                </li>
+                <li>
+                    <img src="channels4_profile.jpg" alt="Profile" class="profile-img">
+                    <div class="song-info">
+                        <div class="song-name">Blue versi bahasa indonesia</div>
+                        <div class="artist-name">by Aya Aulya</div>
+                        <audio controls>
+                            <source src="saveinsta.cc_320kbps-yung-kai-blue-versi-indonesia-female-cover-oleh-aya-aulya.mp3" type="audio/mp3">
+                        </audio>
+                    </div>
+                </li>
+                <li>
+                    <img src="gluee.jpg" alt="Profile" class="profile-img">
+                    <div class="song-info">
+                         <div class="song-name">Glue Song</div>
+                        <div class="artist-name">by beabadoobee</div>
+                        <audio controls>
+                            <source src="beabadoobee - Glue Song (Official Music Video) (1).mp3" type="audio/mp3">
+                         </audio>
+                     </div>
+                </li>
+                <li>
+                    <img src="aku dah lupa.jfif" alt="Profile" class="profile-img">
+                    <div class="song-info">
+                         <div class="song-name">Aku dah lupa</div>
+                        <div class="artist-name">by zia & mikky</div>
+                        <audio controls>
+                            <source src="AKU DAH LUPA.mp3" type="audio/mp3">
+                        </audio>
+                    </div>
+                </li>
+        </ul>
+    </div>
+
+    <script>
+        const playlist = document.querySelectorAll('#playlist-indonesia li');
+        let currentAudioIndex = 0;
+
+        // Play next song when the current song ends
+        function playNext() {
+            const currentAudio = playlist[currentAudioIndex].querySelector('audio');
+            currentAudio.pause();
+            currentAudio.currentTime = 0;
+
+            currentAudioIndex = (currentAudioIndex + 1) % playlist.length; // Next song
+            const nextAudio = playlist[currentAudioIndex].querySelector('audio');
+            nextAudio.play();
+        }
+
+        // Add event listener to all audio elements
+        playlist.forEach((item, index) => {
+            const audio = item.querySelector('audio');
+            audio.addEventListener('ended', playNext); // Play next song after the current song ends
+
+            // Play selected song and pause others
+            audio.addEventListener('play', () => {
+                currentAudioIndex = index;
+                playlist.forEach((otherItem, otherIndex) => {
+                    if (otherIndex !== index) {
+                        const otherAudio = otherItem.querySelector('audio');
+                        otherAudio.pause();
+                        otherAudio.currentTime = 0;
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
